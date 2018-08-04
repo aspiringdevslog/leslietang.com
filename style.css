@@ -4,22 +4,24 @@ body {
 	margin: 0px;
 }
 
-p {
-	margin: 5px 0 5px 0;
-}
-
 h1 {
-	margin: 15px 0 15px 0;
+  font-family: "brandon-grotesque";
+  font-weight: 900;
+  font-size: 2.4em;
+  text-transform: uppercase;
 }
 
 h2 {
-	margin: 10px 0 10px 0;
+  font-family: "brandon-grotesque";
+  font-weight: 700;
+  font-size: 1.8em;
+  text-transform: uppercase;
 }
 
 .profileImg{
 	max-width: 200px;
 	border-radius: 50%;
-	margin: 20px
+	margin: 50px
 }
 
 .flex-container{
@@ -29,15 +31,106 @@ h2 {
 	justify-content: center;
 	text-align: center;
 }
+.first-flex-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background: black;
+	color: white;
+
+	width: 100%;
+	min-height: 100vh;
+}
+
+.flex-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background: black;
+	color: white;
+
+	width: 100%;
+	min-height: 100vh;
+}
+
+.alt-flex-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background: beige;
+	color: black;
+
+	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 50vh;
+}
 
 .flex-footer{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/*text-align: center;*/
+	text-align: center;
+
+	background: black;
+	color: white;
+
+	width: 100%;
+	min-height: 20vh;
 }
 
 .nav-item{
 	padding: 10px;
+}
+
+.content{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.row-flex-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background: beige;
+	color: black;
+	width: 100%;
+}
+
+
+.row-flex-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background: black;
+	color: white;
+
+	min-width: 30%;
+	min-height: 40vh;
+	margin: 10px;
+	padding: 10px;
+}
+
+a {
+	color: yellow;
+}
+
+a:visited {
+	color: yellow;
 }
