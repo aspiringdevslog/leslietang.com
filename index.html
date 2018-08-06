@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122370210-1"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -78,6 +79,22 @@
 			<a class="nav-item" href="https://www.linkedin.com/in/leslie-tang/" target="_blank">LinkedIn</a> 
 		</div>
 	</div>
+
+	<div id="randomitem" class="alt-flex-item">
+		<h1>{{ heading }}</h1>
+		<p>{{ message }}</p>
+	</div>
+	
+<script type="text/javascript">
+	var randomitem = new Vue({
+	  el: '#randomitem',
+	  data: {
+	  	heading: 'Vue Heading Test',
+	    message: 'Hello Vue!'
+	  }
+	})
+</script>
+
 	<div class="flex-footer">
 		<!-- <h2>Footer</h2> -->
 		<p>Thanks for visiting my site, hope it's useful.</p>
