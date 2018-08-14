@@ -198,3 +198,9 @@ a:hover.content-item-alt {
 a:visited {
 	color: yellow;
 }*/
+
+
+.entry {
+	width: 50%;
+	text-align: center;
+}
