@@ -29,7 +29,7 @@
 		},
 		props: {
 			title: String,
-			body: Array
+			body: Object
 		}
 	}
 </script>
@@ -40,7 +40,7 @@
 	font-family: 'Montserrat', sans-serif; 
 	font-weight: 400;
 	/*text-transform: uppercase;*/
-	font-size: 18pt;
+	font-size: 1rem;
 	/*letter-spacing: 130;*/
 	text-align: left;
 }
@@ -49,7 +49,7 @@ h2 {
 	font-family: 'Montserrat', sans-serif; 
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 22pt;
+	font-size: 1.5rem;
 	letter-spacing: 130;
 	margin: 20px;
 }

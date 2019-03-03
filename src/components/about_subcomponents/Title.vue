@@ -25,8 +25,9 @@ h2 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 50pt;
+	font-size: 3rem;
 	margin: 0;
+	margin-top: 15px;
 }
 
 hr {

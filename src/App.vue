@@ -3,17 +3,20 @@
     <a href="/"><h1>LESLIE TANG</h1></a>
     <nav-bar></nav-bar>
     <router-view></router-view>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import NavigationBar from './components/NavigationBar.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    'nav-bar': NavigationBar
+    'nav-bar': NavigationBar,
+    'app-footer': Footer
   }
 }
 </script>
