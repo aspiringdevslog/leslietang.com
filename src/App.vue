@@ -7,13 +7,8 @@
 </template>
 
 <script>
-
-
-
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import NavigationBar from './components/NavigationBar.vue'
-
-
 
 export default {
   name: 'app',
@@ -31,8 +26,9 @@ export default {
   text-align: center;
   color: #d4cfd6;
   margin: 0 auto;
+  padding: none;
   background-color: #333745;
-  max-width: 80%;
+  width: 80%;
 
 }
 </style>

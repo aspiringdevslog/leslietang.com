@@ -4,6 +4,7 @@ body {
 	background-color: #202530;
 	color: #d4cfd6;
 	margin 0;
+	padding: 0;
 }
 
 
@@ -35,4 +36,3 @@ a {
 	color: #d4cfd6;
 	text-decoration: none;	
 }
-
