@@ -1,9 +1,13 @@
+html {
+	padding: 0;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif; 
 	font-size: 1em;
 	background-color: #202530;
 	color: #d4cfd6;
-	margin 0;
+	margin:; 0;
 	padding: 0;
 }
 

@@ -23,12 +23,9 @@
 		},
 		computed: {
 		getCurrentYear(){
-			console.log(new Date().getFullYear()); 
+			// console.log(new Date().getFullYear()); 
 			return new Date().getFullYear();
 
-		},
-		created: function(){
-			// this.getCurrentYear();
 		}
 	}
 	}

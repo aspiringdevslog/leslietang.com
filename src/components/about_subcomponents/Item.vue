@@ -4,12 +4,12 @@
 			{{ title }}
 		</h2>
 		<!-- <hr> -->
-		<p v-for="content in body">
+		<p v-for="(content, contentIndex) in body" v-bind:key="contentIndex">
 			<ul>
 			<!-- {{ content }} -->
 			<li> {{ content.title }} </li>
 				<ul>
-					<li v-for="item in content.spec">
+					<li v-for="(item, itemIndex) in content.spec"  v-bind:key="itemIndex">
 						{{ item }}
 					</li>
 				</ul>
